@@ -36,7 +36,7 @@ This repository contains the full implementation of the third sprint focused on 
   name: restaurant1, rating: 8
   name: restaurant1, rating: 7
   ---
-  ### 👥 Level 3
+### 👥 Level 3
 
 - **Exercise 1:**  
 Build an application capable of reading a CSV file with `name`, `surname`, and `DNI` per line. Load these into a `List<Persona>`.  
