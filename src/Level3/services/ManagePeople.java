@@ -50,8 +50,10 @@ public class ManagePeople {
     }
 
     public void showSorted(Comparator<Person> comparator){
+        System.out.printf("%-15s %-20s %-10s\n", "NAME", "SURNAME", "DNI");
         people.stream()
                 .sorted(comparator)
                 .forEach(System.out::println);
+        System.out.println();
     }
 }
