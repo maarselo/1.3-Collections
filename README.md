@@ -35,7 +35,7 @@ This repository contains the full implementation of the third sprint focused on 
   Example:
   name: restaurant1, rating: 8
   name: restaurant1, rating: 7
-  ---
+
 ### 👥 Level 3
 
 - **Exercise 1:**  
