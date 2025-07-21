@@ -6,7 +6,7 @@ This project demonstrates how to use `ArrayList`, `HashSet`, `HashMap`, and file
 
 ## 📄 Description – Exercise Statement
 
-This repository contains the full solution for Sprint 1 - Collections & Sorting of the Java programming track.  
+This repository contains the full solution for Sprint 1.3 - Collections & Sorting of the Java ITAcademy programming track.  
 The sprint is divided into three levels, each focusing on increasingly advanced handling of Java collections, iteration techniques, file parsing, and sorting logic using lambdas and comparators.
 
 
@@ -41,8 +41,6 @@ The sprint is divided into three levels, each focusing on increasingly advanced 
 
 ### · Exercise 2
 - Sort `Restaurant` objects first by name, then by descending rating.
-
----
 
 
 ## 🎟️ Level 3
