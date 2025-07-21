@@ -3,30 +3,28 @@
 A complete set of exercises focused on mastering Java collections and sorting techniques.  
 This project demonstrates how to use `ArrayList`, `HashSet`, `HashMap`, and file I/O with sorting, ordering, and iteration patterns, applying Java's utility classes like `Iterator`, `ListIterator`, and `Comparator`.
 
----
 
 ## 📄 Description – Exercise Statement
 
 This repository contains the full solution for Sprint 1 - Collections & Sorting of the Java programming track.  
 The sprint is divided into three levels, each focusing on increasingly advanced handling of Java collections, iteration techniques, file parsing, and sorting logic using lambdas and comparators.
 
----
 
 ## 💥 Level 1
 
-### · Exercise 1
+###  Exercise 1
 - Create a class `Month` with an attribute `name`.
 - Add 11 `Month` objects to an `ArrayList`, omitting "Agost".
 - Insert "Agost" at the correct index and ensure the list maintains correct order.
 - Convert the `ArrayList` into a `HashSet` and demonstrate it doesn't allow duplicates.
 - Iterate over the list using a standard `for` loop and an `Iterator`.
 
-### · Exercise 2
+###  Exercise 2
 - Create and populate a `List<Integer>`.
 - Create a second `List<Integer>` and insert elements from the first list in reverse order.
 - Use a `ListIterator` to read from the first list and insert into the second.
 
-### · Exercise 3
+###  Exercise 3
 - Read from the file `countries.txt` containing country-capital pairs.
 - Store them in a `HashMap<String, String>`.
 - Prompt the user for their name.
