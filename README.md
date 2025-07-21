@@ -50,26 +50,25 @@ The sprint is divided into three levels, each focusing on increasingly advanced 
 - Allow sorting by name, surname, or DNI in ascending or descending order using a menu.
 
 #### 📋 Menu Example:
-  1.- Add new person
-  2.- Show people sorted by name (A-Z)
-  3.- Show people sorted by name (Z-A)
-  4.- Show people sorted by surname (A-Z)
-  5.- Show people sorted by surname (Z-A)
-  6.- Show people sorted by DNI (1-9)
-  7.- Show people sorted by DNI (9-1)
-  0.- Exit
-
+  1.- Add new person  
+  2.- Show people sorted by name (A-Z)  
+  3.- Show people sorted by name (Z-A)  
+  4.- Show people sorted by surname (A-Z)  
+  5.- Show people sorted by surname (Z-A)  
+  6.- Show people sorted by DNI (1-9)  
+  7.- Show people sorted by DNI (9-1)  
+  0.- Exit  
 
 #### 📄 Output Example:
-  Name    Surname     DNI
-  Andreu  Ballestero  34835767J
-  Miquel  Bayona      48743957B
-  Guillem Capdevila   33957834J
-  Albert  Carbonell   77364986R
-  Ferran  Casas       23047848P
-  Maria   Casellas    47102244S
-  Genis   Ciutat      39718459N
-
+| Name    | Surname    | DNI       |
+|---------|------------|-----------|
+| Andreu  | Ballestero | 34835767J |
+| Miquel  | Bayona     | 48743957B |
+| Guillem | Capdevila  | 33957834J |
+| Albert  | Carbonell  | 77364986R |
+| Ferran  | Casas      | 23047848P |
+| Maria   | Casellas   | 47102244S |
+| Genis   | Ciutat     | 39718459N |
 
 ## 💻 Technologies Used
 
