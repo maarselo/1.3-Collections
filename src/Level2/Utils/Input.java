@@ -1,9 +1,8 @@
 package Level2.Utils;
 
-import Level2.exceptions.ExceptionEmptyInput;
-import Level2.exceptions.OutOfRange;
+import Level2.exceptions.EmptyInputException;
+import Level2.exceptions.OutOfRangeException;
 
-import java.util.EmptyStackException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -18,7 +17,7 @@ public class Input {
                 keyboard.nextLine();
                 Check.checkNumber(max, min, number);
                 return (number);
-            } catch (InputMismatchException | OutOfRange e) {
+            } catch (InputMismatchException | OutOfRangeException e) {
                 keyboard.nextLine();
                 System.out.println(e.getMessage());
             }
@@ -33,7 +32,7 @@ public class Input {
                 Check.checkString(input);
                 input = input.trim();
                 return (input);
-            } catch (ExceptionEmptyInput e) {
+            } catch (EmptyInputException e) {
                 System.out.println(e.getMessage());
             }
         }

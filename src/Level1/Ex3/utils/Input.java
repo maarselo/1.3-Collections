@@ -1,6 +1,6 @@
 package Level1.Ex3.utils;
 
-import Level1.Ex3.exceptions.EmptyString;
+import Level1.Ex3.exceptions.EmptyStringException;
 
 import java.util.Scanner;
 
@@ -16,15 +16,15 @@ public class Input {
                 input = keyboard.nextLine();
                 checkString(input);
                 return (input);
-            } catch (EmptyString e) {
+            } catch (EmptyStringException e) {
                 System.out.println(e.getMessage());
             }
         }
     }
 
-    public static void checkString(String input) throws EmptyString {
+    public static void checkString(String input) throws EmptyStringException {
         if (input.isEmpty())
-            throw new EmptyString("The string cannot be empty.");
+            throw new EmptyStringException("The string cannot be empty.");
     }
 }
 

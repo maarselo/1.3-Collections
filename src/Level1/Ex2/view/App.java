@@ -1,6 +1,6 @@
 package Level1.Ex2.view;
 
-import Level1.Ex2.utils.Utils;
+import Level1.Ex2.utils.Print;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,9 @@ public class App {
         List<Integer> numbersReverse = new ArrayList<>();
         ListIterator<Integer> lit = numbers.listIterator(numbers.size());
 
-        Utils.printList(numbers);
+        Print.printList(numbers);
         while(lit.hasPrevious())
             numbersReverse.add(lit.previous());
-        Utils.printList(numbersReverse);
+        Print.printList(numbersReverse);
     }
 }

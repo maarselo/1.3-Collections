@@ -1,13 +1,10 @@
 package Level3.view;
 
-import Level3.exceptions.InputOutOfRange;
 import Level3.model.Person;
 import Level3.services.ManagePeople;
-import Level3.utils.Check;
 import Level3.utils.Input;
 
 import java.util.Comparator;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Menu {

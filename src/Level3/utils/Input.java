@@ -1,9 +1,9 @@
 package Level3.utils;
 
-import Level3.exceptions.InputContainDigits;
-import Level3.exceptions.InputEmpty;
+import Level3.exceptions.InputContainDigitsException;
+import Level3.exceptions.InputEmptyException;
 import Level3.exceptions.InputIncorrectException;
-import Level3.exceptions.InputOutOfRange;
+import Level3.exceptions.InputOutOfRangeException;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -19,7 +19,7 @@ public class Input {
                 keyboard.nextLine();
                 Check.checkInt(min, max, number);
                 return (number);
-            } catch (InputMismatchException | InputOutOfRange e) {
+            } catch (InputMismatchException | InputOutOfRangeException e) {
                 keyboard.nextLine();
                 System.out.println(e.getMessage());
             }
@@ -32,7 +32,7 @@ public class Input {
                 String input = keyboard.nextLine();
                 Check.checkNames(input);
                 return (input);
-            } catch (InputContainDigits | InputEmpty e) {
+            } catch (InputContainDigitsException | InputEmptyException e) {
                 System.out.println(e.getMessage());
             }
         }
@@ -44,7 +44,7 @@ public class Input {
                 String input = keyboard.nextLine();
                 Check.checkDni(input);
                 return (input);
-            } catch (InputIncorrectException | InputEmpty e) {
+            } catch (InputIncorrectException | InputEmptyException e) {
                 System.out.println(e.getMessage());
             }
         }
